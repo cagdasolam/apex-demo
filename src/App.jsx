@@ -7,6 +7,7 @@ import RadarChart from './charts/RadarChart'
 import HeatmapChart from './charts/HeatmapChart'
 import CandlestickChart from './charts/CandlestickChart'
 import RadialBarChart from './charts/RadialBarChart'
+import GroupedBarChart from './charts/GroupedBarChart'
 
 export default function App() {
   return (
@@ -35,6 +36,12 @@ export default function App() {
           <h3>📊 Bar Grafik</h3>
           <p className="chart-desc">Departman bazlı performans</p>
           <BarChart />
+        </div>
+
+        <div className="chart-card">
+          <h3>📊 Grouped Bar Grafik</h3>
+          <p className="chart-desc">Aylık gelir, gider ve kâr karşılaştırması</p>
+          <GroupedBarChart />
         </div>
 
         <div className="chart-card">
