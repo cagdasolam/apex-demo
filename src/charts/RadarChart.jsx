@@ -1,5 +1,5 @@
 import React from 'react'
-import Chart from 'react-apexcharts'
+import ReactApexChart from 'react-apexcharts'
 
 export default function RadarChart() {
   const options = {
@@ -27,6 +27,6 @@ export default function RadarChart() {
     { name: 'Ekip B', data: [70, 80, 90, 72, 85, 88] },
   ]
 
-  return <Chart options={options} series={series} type="radar" height={350} />
+  return <ReactApexChart options={options} series={series} type="radar" height={350} />
 }
 

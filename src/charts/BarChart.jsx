@@ -1,5 +1,5 @@
 import React from 'react'
-import Chart from 'react-apexcharts'
+import ReactApexChart from 'react-apexcharts'
 
 export default function BarChart() {
   const options = {
@@ -52,6 +52,6 @@ export default function BarChart() {
     },
   ]
 
-  return <Chart options={options} series={series} type="bar" height={320} />
+  return <ReactApexChart options={options} series={series} type="bar" height={320} />
 }
 

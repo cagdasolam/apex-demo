@@ -1,5 +1,5 @@
 import React from 'react'
-import Chart from 'react-apexcharts'
+import ReactApexChart from 'react-apexcharts'
 
 function generateCandlestickData() {
   const data = []
@@ -67,6 +67,6 @@ export default function CandlestickChart() {
     },
   ]
 
-  return <Chart options={options} series={series} type="candlestick" height={350} />
+  return <ReactApexChart options={options} series={series} type="candlestick" height={350} />
 }
 

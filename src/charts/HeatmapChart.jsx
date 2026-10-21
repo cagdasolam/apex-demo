@@ -1,5 +1,5 @@
 import React from 'react'
-import Chart from 'react-apexcharts'
+import ReactApexChart from 'react-apexcharts'
 
 function generateHeatmapData(count, range) {
   const data = []
@@ -48,6 +48,6 @@ export default function HeatmapChart() {
     data: generateHeatmapData(9, { min: 0, max: 100 }),
   }))
 
-  return <Chart options={options} series={series} type="heatmap" height={280} />
+  return <ReactApexChart options={options} series={series} type="heatmap" height={280} />
 }
 

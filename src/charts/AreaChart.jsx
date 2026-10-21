@@ -1,5 +1,5 @@
 import React from 'react'
-import Chart from 'react-apexcharts'
+import ReactApexChart from 'react-apexcharts'
 
 export default function AreaChart() {
   const options = {
@@ -50,6 +50,6 @@ export default function AreaChart() {
     },
   ]
 
-  return <Chart options={options} series={series} type="area" height={320} />
+  return <ReactApexChart options={options} series={series} type="area" height={320} />
 }
 

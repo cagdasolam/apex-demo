@@ -1,5 +1,5 @@
 import React from 'react'
-import Chart from 'react-apexcharts'
+import ReactApexChart from 'react-apexcharts'
 
 export default function LineChart() {
   const options = {
@@ -37,6 +37,6 @@ export default function LineChart() {
     },
   ]
 
-  return <Chart options={options} series={series} type="line" height={320} />
+  return <ReactApexChart options={options} series={series} type="line" height={320} />
 }
 

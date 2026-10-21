@@ -1,5 +1,5 @@
 import React from 'react'
-import Chart from 'react-apexcharts'
+import ReactApexChart from 'react-apexcharts'
 
 export default function DonutChart() {
   const options = {
@@ -45,6 +45,6 @@ export default function DonutChart() {
 
   const series = [450000, 280000, 320000, 150000, 100000]
 
-  return <Chart options={options} series={series} type="donut" height={350} />
+  return <ReactApexChart options={options} series={series} type="donut" height={350} />
 }
 

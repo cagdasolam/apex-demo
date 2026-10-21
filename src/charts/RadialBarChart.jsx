@@ -1,5 +1,5 @@
 import React from 'react'
-import Chart from 'react-apexcharts'
+import ReactApexChart from 'react-apexcharts'
 
 export default function RadialBarChart() {
   const options = {
@@ -46,6 +46,6 @@ export default function RadialBarChart() {
 
   const series = [85, 72, 91, 68]
 
-  return <Chart options={options} series={series} type="radialBar" height={350} />
+  return <ReactApexChart options={options} series={series} type="radialBar" height={350} />
 }
 
