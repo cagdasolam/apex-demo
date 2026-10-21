@@ -8,6 +8,7 @@ import HeatmapChart from './charts/HeatmapChart'
 import CandlestickChart from './charts/CandlestickChart'
 import RadialBarChart from './charts/RadialBarChart'
 import GroupedBarChart from './charts/GroupedBarChart'
+import MatrixChart from './charts/MatrixChart'
 
 export default function App() {
   return (
@@ -66,6 +67,12 @@ export default function App() {
           <h3>🔥 Isı Haritası</h3>
           <p className="chart-desc">Haftalık aktivite yoğunluğu</p>
           <HeatmapChart />
+        </div>
+
+        <div className="chart-card full-width">
+          <h3>🧮 Entity Matrisi</h3>
+          <p className="chart-desc">A, B, C, D entity'lerinin oran ve renk karışım matrisi</p>
+          <MatrixChart />
         </div>
 
         <div className="chart-card full-width">
